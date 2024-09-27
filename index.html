@@ -30,7 +30,7 @@ let temp = ''
 
 
 
-    axios.get(`http://api.weatherapi.com/v1/current.json?key=e0c6c4df7c204e1e982110607240809&q=${cityname1}&aqi=no`)
+    axios.get(`https://api.weatherapi.com/v1/current.json?key=e0c6c4df7c204e1e982110607240809&q=${cityname1}&aqi=no`)
   .then(function (response) {
    
     let temperature = response.data.current.temp_c;
